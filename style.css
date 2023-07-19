@@ -1,0 +1,31 @@
+
+
+div.p 
+{
+	width: 800px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	
+	word-wrap: normal;
+}
+
+div.free 
+{
+	white-space: pre;
+	padding: 1px;
+}
+
+div#in-1 
+{
+	margin-left: 40px;
+}
+
+div#in-2 
+{
+	margin-left: 80px;
+}
+
+div#in-3 
+{
+	margin-left: 120px;
+}
