@@ -6,7 +6,11 @@ div.p
 	padding-top: 10px;
     padding-bottom: 10px;
 	
+	font-size: 12pt;
+	line-height: 15pt;
+	
 	word-wrap: normal;
+	white-space: pre-line;
 }
 
 div.free 
@@ -23,5 +27,6 @@ div#in-3
 
 img.img25 
 { max-width: 25% ; border: 1px solid }
-img.img33
+
+img.img30
 { max-width: 30% ; border: 1px solid }
