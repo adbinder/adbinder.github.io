@@ -29,3 +29,5 @@ div#in-3
 {
 	margin-left: 120px;
 }
+
+img.25 { max-width: 25% ; border: 1px solid }
