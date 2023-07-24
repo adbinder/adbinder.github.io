@@ -1,9 +1,17 @@
 
+
+/*Text*/
+
+
+/*Overall Font*/
+*{ font-family: 'Georgia' }
+
+
 /*  Paragraph style with limited page width; 
 words wrap. New lines are preserved as in the code */
 .p  
 {
-	width: 800px;
+	width: 700px;
 	padding-top: 10px;
     padding-bottom: 10px;
 	
@@ -11,8 +19,14 @@ words wrap. New lines are preserved as in the code */
 	line-height: 15pt;
 	
 	word-wrap: normal;
-	white-space: pre-line;
 }
+
+.free /* Free writing - preserves tabs, new lines, spaces, etc. */
+{ white-space: pre }
+
+
+.freeLine /* Preserves new lines */
+{ white-space: pre-line }
 
 
 .in-05
@@ -28,8 +42,9 @@ words wrap. New lines are preserved as in the code */
 { margin-left: 120px; }
 
 
-div.free /* Free writing - preserves tabs, new lines, spaces, etc. */
-{ white-space: pre ; padding: 1px; }
+
+
+/*Images*/
 
 img.img25 
 { max-width: 25% ; border: 1px solid ; margin: 2px}
