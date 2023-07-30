@@ -32,8 +32,8 @@
 
 		</div>
 
-	<div class="p">
-	  yt-dlp -u zikon -P "~/Music/dl" -o "%(title)s" -f ba -x --audio-format mp3 --download-sections "*00:00-inf" URL
+	<div class="p freeLine">
+	  yt-dlp --cookies-from-browser edge -P "~/Music/dl" -o "%(title)s" -f ba -x --audio-format mp3 --download-sections "*0:0:40-0:0:59" --force-keyframes-at-cuts url
 
 	  -u username
 	  -P path to download to
