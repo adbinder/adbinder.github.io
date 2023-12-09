@@ -46,6 +46,9 @@ words wrap. New lines are preserved as in the code */
 
 /*Images*/
 
+img.img10 
+{ max-width: 10% ; border: 1px solid ; margin: 2px}
+
 img.img25 
 { max-width: 25% ; border: 1px solid ; margin: 2px}
 
